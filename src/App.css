@@ -1,0 +1,78 @@
+.container{ 
+  background-color:rgb(238, 221, 221);
+  padding: 30px 50px;
+  box-shadow: 0 0 20px brown;
+  max-width: 400px;
+  max-height: 900px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-style:inherit;
+}
+
+.text_center{
+  text-align: center;
+}
+
+.balance{
+  text-align: center;
+  margin: 2px;
+  margin-bottom: 5px;
+}
+.container_inside{
+  background-color: skyblue;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 0 20px brown;
+  border-radius: 20px;
+  padding: 20px;
+  font-size:larger;
+  font-style: inherit ;
+}
+
+.fields{
+  padding: 3px;
+  width: 400px ;
+  margin: 3px ;
+  margin-bottom: 4px;
+}
+.fbutton {
+  
+  background-color: #5890FF;
+  height: 35px;
+  color: white;
+  text-emphasis:initial;
+  border: none;
+  font-size: 15px;
+  margin-top: 40px ;
+  width: 415px;
+  border-radius: 8px;
+}
+.fbutton:hover {background-color: rgb(132, 187, 238)}
+.fbutton:active {
+  transform: translateY(3px);
+}
+
+
+
+
+
+.listofitems {
+margin: 0;
+padding: 0;
+}
+.listofitems > li{
+  justify-content: space-between;
+  display: flex;
+  box-shadow: 0 0 50px gray;
+  margin: 7px;
+  padding: 5px 2px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.listofitems > li:hover {background-color: rgb(132, 187, 238)}
+.listofitems > li:hover{
+  transform: translateY(3px);
+}
