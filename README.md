@@ -1,3 +1,4 @@
-<h3> Expense Tracker App <h3> 
+<h3> Expense Tracker App </h3> 
+
 - React 
 - Redux
